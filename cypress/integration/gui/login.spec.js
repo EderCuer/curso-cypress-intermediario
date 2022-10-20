@@ -1,9 +1,9 @@
 /// <reference types="Cypress" />
 
 describe('Login', () => {
-    it('successfully', () => {
-        cy.login()
+  it('successfully', () => {
+    cy.login()
 
-        cy.get('.qa-user-avatar').should('exist')
-    })
+    cy.get('.qa-user-avatar').should('exist')
+  })
 })
